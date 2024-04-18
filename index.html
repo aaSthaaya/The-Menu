@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/icons8-menu-80.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="title">
+            <h2>Our Menu</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn" type="button" data-id="all">All</button>
+            <button class="btn" type="button" data-id="breakfast">Breakfast</button>
+            <button class="btn" type="button" data-id="launch">Launch</button>
+            <button class="btn" type="button" data-id="all">Shakes</button>
+            <button class="btn" type="button" data-id="dinner">Dinner</button>
+        </div>
+
+        <section class="center">
+            <div class="menu-item">
+                <img class="imag" src="./images/item-1.jpeg" alt="Pancake">
+                <div class="item-info">
+                    <header>
+                        <h4>buttermilk pancakes</h4>
+                        <h4 class="price">$15.99</h4>
+                    </header>
+                    <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur similique
+                        eligendi tenetur nihil.
+                    </p>
+                    <div class="counter">
+                        <button class="btn" id="decrease">-</button>
+                        <span class="btn" id="count">0</span>
+                        <button class="btn" id="increase">+</button>
+                        <button class="btn" id="reset">Reset</button>
+
+                        <div class="counter adds">
+
+                            <div id="totalBox">Total: <span id="total">0</span></div>
+                            <button class="btn" id="add">Add</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            </article>
+        </section>
+
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
