@@ -34,12 +34,16 @@ body {
 }
 
 .btn-container {
+  position: fixed;
+  top: 22%;
+  right: 30%;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   align-items: end;
   font-weight: bold;
   color: #102a42;
+  z-index: 1000;
 }
 
 .btn {
@@ -146,5 +150,9 @@ p.desc {
 @media screen and (max-width: 1139px) {
   .item-row {
     flex-direction: column;
+  }
+  .btn-container {
+    width: 90%;
+    left: 21%;
   }
 }/*# sourceMappingURL=styles.css.map */

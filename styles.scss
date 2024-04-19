@@ -35,12 +35,17 @@ body {
 }
 
 .btn-container {
+    position: fixed;
+    top: 22%;
+    right: 30%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     align-items: end;
     font-weight: bold;
     color: #102a42;
+    z-index: 1000;
+
 }
 
 .btn {
@@ -125,20 +130,10 @@ p.desc {
     justify-content: start;
 
     .counter-box {
-        // border: 1px solid #c59d5f;
+
         font-size: 1.2rem;
         font-weight: bold;
         color: #c59d5f;
-        //     letter-spacing: 1px;
-        //     border-radius: 0.5rem;
-        //     color: #c59d5f;
-        //     cursor: pointer;
-        //     transition: all 0.3s linear;
-
-        //     &:hover{
-        //         color: #fff;
-        //     background-color: #c59d5f;
-        //     }
     }
 
     button {
@@ -174,6 +169,11 @@ p.desc {
 
     .item-row {
         flex-direction: column;
+    }
+
+    .btn-container {
+        width: 90%;
+        left: 21%;
     }
 
 }
