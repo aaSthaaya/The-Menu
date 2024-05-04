@@ -67,7 +67,7 @@
 
 let total = 0;
 
-// Increment count
+// Incremental count
 document.querySelectorAll('.counter #increase').forEach(button => {
     button.addEventListener('click', () => {
         let countElement = button.parentElement.querySelector('#count');
@@ -77,7 +77,7 @@ document.querySelectorAll('.counter #increase').forEach(button => {
     });
 });
 
-// Decrement count
+// Decremental count
 document.querySelectorAll('.counter #decrease').forEach(button => {
     button.addEventListener('click', () => {
         let countElement = button.parentElement.querySelector('#count');
@@ -89,7 +89,7 @@ document.querySelectorAll('.counter #decrease').forEach(button => {
     });
 });
 
-// Reset count and total
+// Reset count and the total
 document.querySelectorAll('.counter #reset').forEach(button => {
     button.addEventListener('click', () => {
         let countElement = button.parentElement.querySelector('#count');
